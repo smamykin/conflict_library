@@ -1,5 +1,11 @@
 {
     "name": "smamykin/conflict_library",
     "type": "library",
-    "require": {}
+    "version": "1.1.0",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ConflictLib\\": "src/"
+        }
+    }
 }
